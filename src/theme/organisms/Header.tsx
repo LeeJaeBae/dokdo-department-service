@@ -10,7 +10,10 @@ const Header = () => {
             width="100%"
             >
                 <Logo/>
-            </FlexBox>
+            {
+                // 로그인 버튼 자리
+            }
+        </FlexBox>
     )
 }
 
