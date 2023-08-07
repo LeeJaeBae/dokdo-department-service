@@ -2,14 +2,12 @@ import FlexBox from "../atoms/box/FlexBox"
 import Logo from "../molecules/Logo"
 
 const Header = () => {
-    
     return (
         <FlexBox
-            height="4rem"
+            height="3rem"
             alignItems="center"
             justifyContent="space-between"
             width="100%"
-            maxWidth="1440px"
             >
                 <Logo/>
             {
