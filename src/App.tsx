@@ -1,17 +1,18 @@
 import React from 'react';
 import GlobalStyles from './theme/GlobalStyles';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import FlexBox from './theme/atoms/box/FlexBox';
-import Header from './theme/organisms/Header';
+
+
+import { Template } from './templates/Template';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <FlexBox
-      
-    >
-      <Header />
-    </FlexBox>,
+    element: (
+      <Template>
+        <Template.Header />
+      </Template>
+    ),
   }
 ]);
 
