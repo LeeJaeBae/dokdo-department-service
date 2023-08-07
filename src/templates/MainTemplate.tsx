@@ -8,10 +8,10 @@ export default function MainTemplate({ children }: MainTemplateProps) {
     return (
         <FlexBox
             width="100%"
-            minHeight="100vh"
+            height="100vh"
+            minHeight="100%"
             flexDirection="column"
             alignItems="center"
-            
         >
             {children}
         </FlexBox>

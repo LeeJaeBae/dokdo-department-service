@@ -11,6 +11,11 @@ const router = createBrowserRouter([
     element: (
       <Template>
         <Template.Header />
+        <Template.Body>
+          <Template.TimeLine>
+            <div>test</div>
+          </Template.TimeLine>
+        </Template.Body>
       </Template>
     ),
   }
